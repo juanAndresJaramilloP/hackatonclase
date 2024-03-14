@@ -3,6 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from 'react-bootstrap/Nav';
 
 function NavBar() {
+
   return (
     <Navbar expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
       <Container>

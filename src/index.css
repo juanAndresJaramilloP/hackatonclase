@@ -1,0 +1,18 @@
+.PercentageBar-input {
+    margin: 5%; 
+    border: 2px solid rgb(1, 1, 1);
+    border-radius: 50px;
+}
+
+.PercentageBar-button {
+    border-radius: 10px;
+    margin: 1%;
+}
+
+.PercentageBar-Card {
+    margin: 1%;
+    padding: 3%;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 50%;
+}
