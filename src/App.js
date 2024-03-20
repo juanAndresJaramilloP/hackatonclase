@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="App">
-      {/* {isLoggedIn ? <NavBar/> : null}
+      {isLoggedIn ? <NavBar/> : null}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={isLoggedIn ? <Characters /> : <Acceder1 />} />
@@ -32,9 +32,7 @@ function App() {
           <Route path="/mundos" element={<Mundos />} />
           <Route path="/mundos/:mundoId" element={<MundoDetail />} />
         </Routes>
-      </BrowserRouter> */}
-      <PasswordGen/>
-
+      </BrowserRouter>
     </div>
   );
 }
